@@ -29,7 +29,7 @@ const Responsive = () => {
       {isOpen && (
         <div className="fixed bottom-20 right-4 bg-gray-800 rounded-lg shadow-lg w-48 z-40">
           <div className="flex flex-col space-y-2 p-4">
-            <Link href="/pages/project">
+            <Link href="https://github.com/sumit851/">
               <span className="text-white hover:text-yellow-300 transition-colors cursor-pointer block">
                 Project
               </span>
