@@ -2,11 +2,7 @@ import React from "react";
 import "./card.module.css";
 
 const ProjectCard = () => {
-  return (
-    <>
-      <CardContainer />
-    </>
-  );
+  return <></>;
 };
 
 export default ProjectCard;
