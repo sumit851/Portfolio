@@ -5,7 +5,7 @@ export default function GlobalError({ error, reset }) {
     // global-error must include html and body tags
     <html>
       <body>
-        <h2>Something went wrong!</h2>
+        <h2>Something went wrong!{error}</h2>
         <button onClick={() => reset()}>Try again</button>
       </body>
     </html>
