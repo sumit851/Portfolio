@@ -91,7 +91,7 @@ const AboutPage = () => {
               Bachelor of Technology
             </h3>
             <p className="text-black">
-              "Siksha &apos;O&apos; Anusandhan • 2021 - 2025"
+              Siksha &apos;O&apos; Anusandhan &bull; 2021 - 2025
             </p>
             <p className="text-black mt-2">
               Computer Science and Informational Technology
