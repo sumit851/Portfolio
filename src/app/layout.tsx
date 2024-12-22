@@ -13,6 +13,9 @@ export default function RootLayout({
   const isDesktop = useWindowSize();
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/images/portfolio-photo-Photoroom.png" />
+      </head>
       <body className="bg-neutral-800">
         {isDesktop ? <Navbar /> : <Responsive />}
         {children}

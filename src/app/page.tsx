@@ -6,7 +6,11 @@ import { LampContainer } from "@/components/ui/lamp";
 import { motion } from "framer-motion";
 
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
+import { useEffect } from "react";
 export default function Home() {
+  useEffect(() => {
+    document.title = "Sumit Dalai - Portfolio";
+  }, []);
   const description =
     "Hi, I'm Sumit Dalai. A passionate Full Stack Developer specializing in building exceptional digital experiences.";
 
@@ -57,7 +61,17 @@ export default function Home() {
             ></div>
           </div>
         </div>
-        <LampContainer>
+        <LampContainer
+          className="
+          w-full      /* Full width on mobile */
+          max-w-3xl   /* Limit container width on larger screens */
+          mx-auto     /* Center horizontally */
+          px-4        /* Horizontal padding on mobile */
+          sm:px-6
+          md:px-8
+          mt-8
+        "
+        >
           <motion.h1
             initial={{ opacity: 0.5, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
