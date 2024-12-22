@@ -63,14 +63,14 @@ export default function Home() {
         </div>
         <LampContainer
           className="
-          w-full      /* Full width on mobile */
-          max-w-3xl   /* Limit container width on larger screens */
-          mx-auto     /* Center horizontally */
-          px-4        /* Horizontal padding on mobile */
-          sm:px-6
-          md:px-8
-          mt-8
-        "
+    w-full      
+    max-w-none    
+    mx-auto      
+    px-4         
+    sm:px-6      
+    md:px-8      
+    mt-2
+  "
         >
           <motion.h1
             initial={{ opacity: 0.5, y: 100 }}
@@ -80,7 +80,21 @@ export default function Home() {
               duration: 0.8,
               ease: "easeInOut",
             }}
-            className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+            viewport={{
+              once: false,
+              margin: "-100px 0px -100px 0px",
+            }}
+            className="
+    bg-gradient-to-br from-slate-300 to-slate-500 
+    py-4 
+    bg-clip-text 
+    text-center 
+    text-4xl 
+    font-medium 
+    tracking-tight 
+    text-transparent 
+    md:text-7xl
+  "
           >
             Grinding Day by Day
           </motion.h1>
