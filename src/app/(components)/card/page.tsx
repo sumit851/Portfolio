@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProjectCard = ({ title, description, mediaUrl, mediaType = "image" }) => {
+export default function ProjectCard ({ title, description, mediaUrl, mediaType = "image" }) {
   return (
     <div className="bg-gray-800/50 rounded-2xl shadow-xl p-4 m-4 hover:bg-gray-700/50 transition-colors max-w-md">
       {/* Media */}
@@ -20,4 +20,4 @@ const ProjectCard = ({ title, description, mediaUrl, mediaType = "image" }) => {
   );
 };
 
-export default ProjectCard;
+
