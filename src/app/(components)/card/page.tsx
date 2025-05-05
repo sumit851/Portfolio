@@ -30,4 +30,4 @@ const ProjectCard: React.FC<ProjectCardProps> = (props) => {
 };
 
 
-export default ProjectCard;
+export  {ProjectCard};
