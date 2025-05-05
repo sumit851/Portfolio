@@ -1,7 +1,7 @@
 "use client";
 
-import Navbar from "./components/navbar/page";
-import Responsive from "./components/navbar/Responsive";
+import Navbar from "./(components)/navbar/page";
+import Responsive from "./(components)/navbar/Responsive";
 import { useWindowSize } from "../hooks/widthcheck";
 import "./globals.css";
 

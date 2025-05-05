@@ -1,7 +1,7 @@
 "use client";
 import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
 import { SparklesCore } from "@/components/ui/sparkles";
-import Footer from "./components/footer/page";
+import Footer from "./(components)/footer/page";
 import { LampContainer } from "@/components/ui/lamp";
 import { motion } from "framer-motion";
 
