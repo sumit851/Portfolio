@@ -1,0 +1,27 @@
+.navbar {
+    background-color: #242424;
+    border-radius: 0.5rem; /* Tailwind's rounded-lg */
+    margin: 1rem auto; /* Tailwind's mx-auto, mt-4 */
+    width: 91.666667%; /* Tailwind's w-11/12 */
+    max-width: 56rem; /* Tailwind's max-w-4xl, 1rem = 16px, 56*16 = 896 */
+    padding: 0 1rem;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem; /* Tailwind's h-16 */
+  }
+  
+  .nav-link {
+    color: white;
+    font-size: 1.25rem; /* Tailwind's text-xl */
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+  
+  .nav-link:hover {
+    color: #8B5CF6; /* Tailwind's hover:text-purple-500 */
+  }
+  
