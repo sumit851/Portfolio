@@ -29,3 +29,4 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, mediaUrl,
 };
 
 
+export default ProjectCard;
